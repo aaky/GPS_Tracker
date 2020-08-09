@@ -1,0 +1,1389 @@
+Dependencies for Project 'Tracking_Device', Target 'Tracking_Device': (DO NOT MODIFY !)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal.o --omf_browse tracking_device\stm32l0xx_hal.crf --depend tracking_device\stm32l0xx_hal.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_i2c.o --omf_browse tracking_device\stm32l0xx_hal_i2c.crf --depend tracking_device\stm32l0xx_hal_i2c.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_tim.o --omf_browse tracking_device\stm32l0xx_hal_tim.crf --depend tracking_device\stm32l0xx_hal_tim.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_i2c_ex.o --omf_browse tracking_device\stm32l0xx_hal_i2c_ex.crf --depend tracking_device\stm32l0xx_hal_i2c_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_gpio.o --omf_browse tracking_device\stm32l0xx_hal_gpio.crf --depend tracking_device\stm32l0xx_hal_gpio.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_lptim.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_lptim.o --omf_browse tracking_device\stm32l0xx_hal_lptim.crf --depend tracking_device\stm32l0xx_hal_lptim.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_pwr_ex.o --omf_browse tracking_device\stm32l0xx_hal_pwr_ex.crf --depend tracking_device\stm32l0xx_hal_pwr_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_tim_ex.o --omf_browse tracking_device\stm32l0xx_hal_tim_ex.crf --depend tracking_device\stm32l0xx_hal_tim_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_pwr.o --omf_browse tracking_device\stm32l0xx_hal_pwr.crf --depend tracking_device\stm32l0xx_hal_pwr.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_spi.o --omf_browse tracking_device\stm32l0xx_hal_spi.crf --depend tracking_device\stm32l0xx_hal_spi.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_flash_ex.o --omf_browse tracking_device\stm32l0xx_hal_flash_ex.crf --depend tracking_device\stm32l0xx_hal_flash_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_rcc.o --omf_browse tracking_device\stm32l0xx_hal_rcc.crf --depend tracking_device\stm32l0xx_hal_rcc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_flash.o --omf_browse tracking_device\stm32l0xx_hal_flash.crf --depend tracking_device\stm32l0xx_hal_flash.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_adc.o --omf_browse tracking_device\stm32l0xx_hal_adc.crf --depend tracking_device\stm32l0xx_hal_adc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_flash_ramfunc.o --omf_browse tracking_device\stm32l0xx_hal_flash_ramfunc.crf --depend tracking_device\stm32l0xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_dma.o --omf_browse tracking_device\stm32l0xx_hal_dma.crf --depend tracking_device\stm32l0xx_hal_dma.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_adc_ex.o --omf_browse tracking_device\stm32l0xx_hal_adc_ex.crf --depend tracking_device\stm32l0xx_hal_adc_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_uart.o --omf_browse tracking_device\stm32l0xx_hal_uart.crf --depend tracking_device\stm32l0xx_hal_uart.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_uart_ex.o --omf_browse tracking_device\stm32l0xx_hal_uart_ex.crf --depend tracking_device\stm32l0xx_hal_uart_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_iwdg.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_iwdg.o --omf_browse tracking_device\stm32l0xx_hal_iwdg.crf --depend tracking_device\stm32l0xx_hal_iwdg.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_cortex.o --omf_browse tracking_device\stm32l0xx_hal_cortex.crf --depend tracking_device\stm32l0xx_hal_cortex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_rcc_ex.o --omf_browse tracking_device\stm32l0xx_hal_rcc_ex.crf --depend tracking_device\stm32l0xx_hal_rcc_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (../Drivers/CMSIS//Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.c)(0x57C9B756)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\system_stm32l0xx.o --omf_browse tracking_device\system_stm32l0xx.crf --depend tracking_device\system_stm32l0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (startup_stm32l073xx.s)(0x57EFB57F)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32L073xx SETA 1"--list startup_stm32l073xx.lst --xref -o tracking_device\startup_stm32l073xx.o --depend tracking_device\startup_stm32l073xx.d)
+F (../Src/main.c)(0x57FE09A8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\main.o --omf_browse tracking_device\main.crf --depend tracking_device\main.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+I (..\Services\UART_Service\inc\UART_Service.h)(0x57F697A1)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (..\Services\TimerService\inc\TimerService.h)(0x57F9337D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB4E9E)
+I (..\Services\GSM_Service\inc\GSM.h)(0x57FE03C0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (..\Services\GPS_Service\inc\GPS.h)(0x57FDED06)
+F (../Src/stm32l0xx_it.c)(0x57FBDD8A)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_it.o --omf_browse tracking_device\stm32l0xx_it.crf --depend tracking_device\stm32l0xx_it.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+I (../Inc/stm32l0xx_it.h)(0x57FBCAB1)
+I (..\Services\GSM_Service\inc\GSM.h)(0x57FE03C0)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB4E9E)
+F (../Src/stm32l0xx_hal_msp.c)(0x57FBCAB1)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\stm32l0xx_hal_msp.o --omf_browse tracking_device\stm32l0xx_hal_msp.crf --depend tracking_device\stm32l0xx_hal_msp.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (..\Services\ADC\src\ADC_Service.c)(0x57F685F7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\adc_service.o --omf_browse tracking_device\adc_service.crf --depend tracking_device\adc_service.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+I (..\Services\ADC\inc\ADC_Service.h)(0x57F68681)
+I (..\Services\Watchdog_Service\inc\Watchdog_Service.h)(0x57F686CC)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (..\Services\Logging_Service\inc\logging_service.h)(0x57F686A5)
+F (..\Services\GPRS_Service\src\GPRS.c)(0x57F956E6)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\gprs.o --omf_browse tracking_device\gprs.crf --depend tracking_device\gprs.d)
+I (..\Services\GPRS_Service\inc\GPRS.h)(0x57F68688)
+F (..\Services\GPS_Service\src\GPS.c)(0x57FD2289)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\gps.o --omf_browse tracking_device\gps.crf --depend tracking_device\gps.d)
+I (..\Services\GPS_Service\inc\GPS.h)(0x57FDED06)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB4E9E)
+I (..\Services\UART_Service\inc\UART_Service.h)(0x57F697A1)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+I (..\Services\GSM_Service\inc\GSM.h)(0x57FE03C0)
+F (..\Services\GSM_Service\src\GSM.c)(0x57FE038D)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\gsm.o --omf_browse tracking_device\gsm.crf --depend tracking_device\gsm.d)
+I (..\Services\GSM_Service\inc\GSM.h)(0x57FE03C0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB4EA0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB4E9E)
+I (..\Services\UART_Service\inc\UART_Service.h)(0x57F697A1)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+I (..\Services\GPS_Service\inc\GPS.h)(0x57FDED06)
+F (..\Services\I2C_Service\src\I2C_service.c)(0x57F6861E)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\i2c_service.o --omf_browse tracking_device\i2c_service.crf --depend tracking_device\i2c_service.d)
+I (..\Services\I2C_Service\inc\I2C_service.h)(0x57F6869A)
+F (..\Services\Logging_Service\src\logging_service.c)(0x57F956D9)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\logging_service.o --omf_browse tracking_device\logging_service.crf --depend tracking_device\logging_service.d)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (..\Services\Logging_Service\inc\logging_service.h)(0x57F686A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+F (..\Services\Power_Down_GPIO_Service\src\Power_Down.c)(0x57F68627)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\power_down.o --omf_browse tracking_device\power_down.crf --depend tracking_device\power_down.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+I (..\Services\Power_Down_GPIO_Service\inc\Power_Down.h)(0x57F686B9)
+F (..\Services\TimerService\src\TimerService.c)(0x57F6BDA8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\timerservice.o --omf_browse tracking_device\timerservice.crf --depend tracking_device\timerservice.d)
+I (..\Services\TimerService\inc\TimerService.h)(0x57F9337D)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB4E9E)
+F (..\Services\Watchdog_Service\src\Watchdog_Service.c)(0x57F9564C)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\watchdog_service.o --omf_browse tracking_device\watchdog_service.crf --depend tracking_device\watchdog_service.d)
+I (..\Services\Watchdog_Service\inc\Watchdog_Service.h)(0x57F686CC)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (..\Services\UART_Service\src\UART_Service.c)(0x57FD12D2)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\uart_service.o --omf_browse tracking_device\uart_service.crf --depend tracking_device\uart_service.d)
+I (..\Services\UART_Service\inc\UART_Service.h)(0x57F697A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (..\Services\Global_Includes\Error_codes.h)(0x57FBAF65)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (..\Services\FatFS_Service\src\FATFS_Service.c)(0x57F9565B)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\fatfs_service.o --omf_browse tracking_device\fatfs_service.crf --depend tracking_device\fatfs_service.d)
+I (..\Services\FatFS_Service\inc\FATFS_Service.h)(0x57F686D8)
+F (..\Services\HB_Service\src\HB_Service.c)(0x57F95651)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\hb_service.o --omf_browse tracking_device\hb_service.crf --depend tracking_device\hb_service.d)
+I (..\Services\HB_Service\inc\HB_Service.h)(0x57F686DE)
+F (..\FATFS\src\diskio.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\diskio.o --omf_browse tracking_device\diskio.crf --depend tracking_device\diskio.d)
+I (..\FATFS\inc\diskio.h)(0x57C9B757)
+I (..\FATFS\inc\integer.h)(0x57C9B757)
+I (..\FATFS\inc\ff_2_SPI_Link.h)(0x57C9B757)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
+F (..\FATFS\src\ff.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\ff.o --omf_browse tracking_device\ff.crf --depend tracking_device\ff.d)
+I (..\FATFS\inc\ff.h)(0x57C9B757)
+I (..\FATFS\inc\integer.h)(0x57C9B757)
+I (..\FATFS\inc\ffconf.h)(0x57C9B757)
+I (..\FATFS\inc\diskio.h)(0x57C9B757)
+F (..\FATFS\src\ff_2_SPI_Link.c)(0x57C9B757)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I..\Services\ADC\inc -I..\Services\Global_Includes -I..\Services\GPRS_Service\inc -I..\Services\GPS_Service\inc -I..\Services\GSM_Service\inc -I..\Services\Helpers\inc -I..\Services\I2C_Service\inc -I..\Services\Logging_Service\inc -I..\Services\Power_Down_GPIO_Service\inc -I..\Services\TimerService\inc -I..\Services\UART_Service\inc -I..\Services\Watchdog_Service\inc -I..\FATFS\inc -I..\Services\FatFS_Service\inc -I..\Services\HB_Service\inc --C99-I "C:\Users\Akash PC\Documents\trackingdevice\MDK-ARM\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32L073xx -DUSE_HAL_DRIVER -DSTM32L073xx-o tracking_device\ff_2_spi_link.o --omf_browse tracking_device\ff_2_spi_link.crf --depend tracking_device\ff_2_spi_link.d)
+I (..\FATFS\inc\ff_2_SPI_Link.h)(0x57C9B757)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x57C9B756)
+I (../Inc/stm32l0xx_hal_conf.h)(0x57FBCAB1)
+I (../Inc/mxconstants.h)(0x57FBCAB2)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x57C9B756)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x57C9B756)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_lptim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x57C9B756)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x57C9B756)
